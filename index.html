@@ -8,6 +8,13 @@
     <!--Import Google Icon Font-->
     <link href="static/css/material-icons.css" rel="stylesheet" />
 
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="static/css/materialize.min.css" />
 
@@ -53,6 +60,38 @@
             <li><a href="">Photo's</a></li>
             <li><a href="">Services</a></li>
             <li><a href="">Contact</a></li>
+            <li>
+              <a
+                href=""
+                class="tooltipped btn-floating btn-small indigo darken-4"
+                data-tooltip="This is Facebook"
+                ><i class="fab fa-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href=""
+                class="tooltipped btn-floating btn-small indigo darken-4"
+                data-tooltip="This is Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href=""
+                class="tooltipped btn-floating btn-small indigo darken-4"
+                data-tooltip="This is Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href=""
+                class="tooltipped btn-floating btn-small indigo darken-4"
+                data-tooltip="This is LinkedIn"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </li>
           </ul>
           <ul class="sidenav grey lighten-2" id="mobile-menu">
             <li><a href="">Photo's</a></li>
@@ -277,6 +316,7 @@
         $(".datepicker").datepicker({
           disableWeekends: true
         });
+        $(".tooltipped").tooltip();
       });
     </script>
   </body>
